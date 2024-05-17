@@ -1,9 +1,6 @@
 @import url(./reset.css);
 
-/* :root {
-	--main-color: #9BC53D;
-	--secondary-color: #EBFFFA;
-  } */
+
 html {
   font-size: 20px;
 }
@@ -92,16 +89,8 @@ footer {
   background-color: #ee0c0c;
   transition: background-color 0.4s ease;
 }
-/* .button { 
-  width: 100px;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  font-size: 16px;
-} */
-
 .general {
-  background: url(../img/fon.jpg) no-repeat;
+  background: url('../img/fon.jpg') no-repeat center center;
   background-size: cover;
   padding: 214px 0;
 }
@@ -146,10 +135,11 @@ footer {
 .general__to-book:active {
     opacity: 1;
 }
-
-.our-tours {
+.color-section{
   background-color: #275657;
-  padding: 53px 0;
+}
+.our-tours {
+ padding: 53px 0;
 }
 .title {
   font-size: 48px;
@@ -184,7 +174,6 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-
 
 .info-tour {
   position: absolute;
@@ -229,7 +218,6 @@ footer {
 .about-us {
   border-top: 3px solid #dfcba7;
   border-bottom: 3px solid #dfcba7;
-  background-color: #275657;
   padding: 35px 0 135px;
 }
 .location-info {
@@ -264,8 +252,8 @@ footer {
 }
 
 .slider-wrapper {
-  position: relative;
-  padding: 0 70px;
+padding: 0 70px;
+
 }
 
 .slider-wrapper .slick-dots {
@@ -312,6 +300,8 @@ footer {
 .buttons-castom {
   display: flex;
   justify-content: space-between;
+  max-width: 500px;
+margin: 0 auto;
 }
 .buttons-castom__prev,
 .buttons-castom__next {
@@ -321,8 +311,7 @@ footer {
 }
 
 .photo-gallery {
-  background-color: #550fbd;
-  padding: 30px 0 100px;
+ padding: 30px 0 100px;
 }
 
 .footer {
@@ -470,6 +459,7 @@ footer {
   .user-menu__link {
     padding: 5px;
     font-size: 16px;
+    
   }
 }
 
