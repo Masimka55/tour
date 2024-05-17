@@ -8,7 +8,7 @@ hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
-    navMenu.classList.toggle("open"); 
+    navMenu.classList.toggle("open-mobile-menu"); 
 } 
 
 $(document).ready(function(){
@@ -26,6 +26,7 @@ $(document).ready(function(){
             settings:{
                 slidesToShow:2,
             },
+           
             breakpoint:480,
             settings:{
                 slidesToShow:1,
